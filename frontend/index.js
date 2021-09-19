@@ -3,7 +3,7 @@ const SNAKE1_COLOUR = '#0000FF';
 const SNAKE2_COLOUR = '#FF0000'
 const FOOD_COLOUR = '#00FF00';
 
-const socket = io('http://localhost:3000');
+const socket = io('https://enigmatic-ocean-03926.herokuapp.com/');
 
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);

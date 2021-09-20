@@ -135,13 +135,13 @@ function getUpdatedVelocity(keyCode) {
     case 65: { // left
       return { x: -1, y: 0 };
     }
-    case 83: { // down
+    case 87: { // down
       return { x: 0, y: -1 };
     }
     case 68: { // right
       return { x: 1, y: 0 };
     }
-    case 87: { // up
+    case 83: { // up
       return { x: 0, y: 1 };
     }
   }

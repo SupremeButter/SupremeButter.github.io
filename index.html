@@ -15,6 +15,9 @@
 	  <iframe id="widgetApi" src="https://yt-download.org/api/widget?url={VIDEO_URL}"
 	width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none"></iframe>
    <input type="url" id="youtube_url"><br><br>
-   <script src="index.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.min.js"></script>
+<script>iFrameResize({ log: false, minHeight: 360 }, '#buttonApi')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.min.js"></script>
+<script>iFrameResize({ log: false, minHeight: 400 }, '#widgetApi')</script>
   </body>
 </html>

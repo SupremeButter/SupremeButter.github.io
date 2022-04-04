@@ -9,9 +9,11 @@
   <body>
    <h1>Youtube to mp3 and mp4 converter</h1>
    <h2>MP3</h2>
-   <iframe id="buttonApi" src="https://yt-download.org/api/button/{FTYPE}?url={YOUTUBE_URL}"
+   <iframe id="buttonApi" src="https://yt-download.org/api/button/{FTYPE}?url={VIDEO_URL}"
     width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none"></iframe>
-	  <label for="youtube_url">Insert youtube link: </label>
+	  <label for="VIDEO_URL">Insert youtube link: </label>
+	  <iframe id="widgetApi" src="https://yt-download.org/api/widget?url={VIDEO_URL}"
+	width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none"></iframe>
    <input type="url" id="youtube_url"><br><br>
    <script src="index.js"></script>
   </body>
